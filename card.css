@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    color: #a5f9be;
+}
+body{
+    height: 150vh;
+    background-color: rgb(5, 188, 127);
+    display: flex;
+    align-items: center;
+    /*background-image: url('https://media.istockphoto.com/id/1491677765/vector/green-sections-of-diagonal-fading-pattern-of-circular-dots.jpg?b=1&s=170667a&w=0&k=20&c=-zJn_3X8bIII1CHKapyiiypMvrbsabZO_fKGLXtn7QE=');*/
+    background-color: rgb(6, 143, 6);
+    justify-content: center;
+}
+.container{
+    display: flex;
+    /*width: 100%;*/
+    width:60rem;
+    margin: auto;
+    background-image: url('https://photomedia.in/wp-content/uploads/2020/03/green-gradient-background-1024x576.jpg');
+    /*background-image:url('https://25.media.tumblr.com/36d1dd51bfa00d557024d00f5ff30495/tumblr_mlj7vbBKkm1r6okk0o1_1280.gif');*/
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    border-color: rgb(8, 46, 17);
+    justify-content: center;
+}
+.left{
+    font-size: 25px;
+    width: 40%;
+    font-weight: bold;
+}
+.left p{
+    padding: 17px 20px;
+}
+.methods div{
+    padding: 7px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.methods div:hover{
+    box-shadow: 10px 0 10px rgba(178, 212, 109, 0.826);
+}
+.methods div::after{
+    content: ' ';
+    display: inline-block;
+    color: rgb(193, 245, 138);
+    width: 8%;
+    height: 1px;
+    border-color:transparent;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    border-left-color: var(--fondy-success);
+    margin-left: 10px;
+}
+.fa-solid{
+    margin-right: 10px;
+    /*width: 0%;*/
+    font-size: 11px;
+    color: #070707;
+    border-color: #070707;
+}
+.center{
+    width: 130%;
+    border-right: 1px solid #211e1e;
+    border-left: 1px solid #171515;
+    height: 100vh;
+    border-color: #070707;
+}
+.center a{
+    width: 140%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #070707;
+}
+.right{
+    width: 25%;
+}
+.right p{
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.details{
+    padding: 20px 20px;
+}
+.right a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.card-details{
+    padding: 20px 30px;
+}
+.card-details .c-number{
+    width: 100%;
+    border: 0px solid #aaa;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 20px;
+}
+.card-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.cc-exp{
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 12px;
+    height: 50px;
+    margin-top: 5px;
+    width: 100%;
+}
+.card-details .cvv-box{
+    border: 0px solid #aaa;
+    margin-top: 5px;
+    padding: 12px;
+    height: 70px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.cc-cvv{
+    width: 100%;
+}
+.email input{
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 12px;
+    height: 50px;
+    margin-top: 10px;
+}
+button{
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #444;
+    background-color: greenyellow;
+}
+button:hover{
+    background-color: #444;
+    color: rgb(197, 207, 197);
+    cursor: pointer;
+}
+
+/*.container{
+    width:50rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+*/
